@@ -3,7 +3,7 @@
 let somma=0;
 let i=0;
 while(i<5){
-    numero=parseInt(prompt("inserisci un numero"));
+    let numero=parseInt(prompt("inserisci un numero"));
     somma += numero;
     i++
     console.log(numero);
